@@ -3,9 +3,14 @@
   <div class="home">
     <h1>All Destinations</h1>
     <div class="destinations">
-      <router-link v-for="dest in destinations" :key="dest.id" :to="dest.slug">
-        <h2 :title="'Id :' + dest.id">{{ dest.name }}</h2>
-        <img :src="`/images/${dest.image}`" :alt="dest.name">
+      <router-link 
+      v-for="dest in destinations" 
+      :key="dest.id" 
+      :to="dest.slug"
+      >
+        <h2 :title="'Id :' + dest.id">
+          {{ dest.name }}</h2>
+        <img :src="`/images/${dest.image}`" :alt="dest.name" style="margin-right:5px">
       </router-link>
     </div>
   </div>
