@@ -20,6 +20,8 @@ a:visited {
   color: #2c3e50;
 }
 .container {
+  /* border:1px solid red; */
+  padding: 0 20px;
   margin: 0 auto;
   max-width: 960px;
 }
