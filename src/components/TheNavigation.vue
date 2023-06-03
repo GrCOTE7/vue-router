@@ -8,3 +8,11 @@
     <RouterLink to="/panama">Panama</RouterLink>
   </div>
 </template>
+
+<style scoped>
+
+#nav .vue-class-active-link {
+  color:red;
+  border-bottom: 2px solid red;
+}
+</style>
