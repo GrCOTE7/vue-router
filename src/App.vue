@@ -8,12 +8,14 @@
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
+        <RouterLink to="/products">Products</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       </nav>
+      
     </div>
   </header>
 
-  <RouterView />
+  <router-view />
 </template>
 
 <style scoped>
