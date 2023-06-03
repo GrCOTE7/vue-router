@@ -8,5 +8,5 @@
       "@/*": ["./src/*"],
     }
   },
-  "allowJS": true
+  "allowJS": true,
 }
