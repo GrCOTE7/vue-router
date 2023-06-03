@@ -22,7 +22,7 @@ import sourceData from '@/data.json'
 // }
 
 console.log(sourceData)
-const destinations = sourceData.destinations
+let destinations = sourceData.destinations
 
 destinations.sort((a, b) => {
     const nameA = a.name.toLowerCase();
