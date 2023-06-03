@@ -24,13 +24,10 @@ import sourceData from '@/data.json'
 console.log(sourceData)
 const destinations = sourceData.destinations
 
-const destinationsSortedByName = destinations.sort((a, b) => {
+destinations.sort((a, b) => {
     const nameA = a.name.toLowerCase();
     const nameB = b.name.toLowerCase();
     return nameA.localeCompare(nameB)
   });
-
   
-console.log(typeof(destinationsSortedByName))
-
 </script>
