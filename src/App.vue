@@ -1,15 +1,19 @@
-<script setup></script>
-
 <template>
-  <div id="nav">
-    <RouterLink to="/">Home</RouterLink>
-    <RouterLink to="/brazil">Brazil</RouterLink>
-    <RouterLink to="/hawaii">Hawaii</RouterLink>
-    <RouterLink to="/jamaica">Jamaica</RouterLink>
-    <RouterLink to="/panama">Panama</RouterLink>
-    <RouterLink to="/about">About</RouterLink>
-  </div>
+
   <div class="container">
+    <TheNavigation />
+    
     <router-view />
   </div>
+  
 </template>
+
+<script setup>
+import TheNavigation from '@/components/TheNavigation.vue'
+
+// const components = TheNavigation
+
+// export default {
+//   components: {TheNavigation}
+// }
+</script>

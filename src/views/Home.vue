@@ -26,7 +26,7 @@ import sourceData from '@/data.json'
 //   }
 // }
 
-console.log(sourceData)
+// console.log(sourceData)
 let destinations = sourceData.destinations
 
 destinations.sort((a, b) => {
