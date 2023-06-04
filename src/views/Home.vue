@@ -2,7 +2,7 @@
 <template>
   <div class="home">
     <h1>All Destinations</h1>
-    <div class="destinations">
+    <div class="destinations" id="destinations">
       <router-link 
       v-for="dest in destinations" 
       :key="dest.id" 
