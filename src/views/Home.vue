@@ -4,13 +4,13 @@
     <h1>All Destinations</h1>
     <div class="destinations" id="destinations">
       <router-link 
-      v-for="dest in destinations" 
-      :key="dest.id" 
-      :to="dest.slug"
+      v-for="destination in destinations" 
+      :key="destination.id" 
+      :to="{name:'destination.show', params: {id: destination.id, slug: destination.slug}}"
       >
-        <h2 :title="'Id :' + dest.id">
-          {{ dest.name }}</h2>
-        <img :src="`/images/${dest.image}`" :alt="dest.name" style="margin-right:5px">
+        <h2 :title="'Id :' + destination.id">
+          {{ destination.name }}</h2>
+        <img :src="`/images/${destination.image}`" :alt="destination.name" style="margin-right:5px">
       </router-link>
     </div>
   </div>

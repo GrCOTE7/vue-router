@@ -8,6 +8,8 @@ const routes = [
   { path: '/jamaica', name: 'jamaica', component: () => import('@/views/Jamaica.vue') },
   { path: '/panama', name: 'panama', component: () => import('@/views/Panama.vue') },
 
+  { path: '/destination/:id/:slug', name: 'destination.show', component: () => import('@/views/DestinationShow.vue') },
+
   {
     path: '/about', name: 'about',
     // route level code-splitting
