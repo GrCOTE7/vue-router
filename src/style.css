@@ -1,1 +1,5 @@
 /* Ce fichier css se rafraichit */
+
+#nav .vue-class-active-link {
+  border-bottom: 2px solid white;
+}
